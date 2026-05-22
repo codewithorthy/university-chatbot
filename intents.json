@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Assalamualikum", "hi", "hello"],
+      "responses": ["Walaikum Assalam! Welcome to Southern University Bangladesh. How can I help you today?"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the university located?", "University Location", "Address", "location", "address"],
+      "responses": ["Southern University Bangladesh is located at New/471, University Road, Arefin Nagar, Chattogram."]
+    },
+    {
+      "tag": "admission_contact",
+      "patterns": ["Admission contact", "Contact info", "admission office", "contact", "phone number"],
+      "responses": ["You can contact the Admission Office directly at +880 31 2851336 or +880 1911-889364."]
+    },
+    {
+      "tag": "cse_fees",
+      "patterns": ["CSE department fees", "CSE Tuition Fees", "fees", "cost", "CSE fees"],
+      "responses": ["The total tuition fee for the CSE program is approximately 4,50,000 to 5,20,000 BDT for the full program."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["When do the final exam start?", "Exam schedule", "exam", "final exam", "routine"],
+      "responses": ["The final exams are scheduled to begin from the next week of this month. Please check the official department group for the detailed schedule."]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": ["Where can I find the syllabus?", "Course outline", "syllabus", "outline", "course list"],
+      "responses": ["You can download the latest syllabus from the university website under the 'Academic' tab or collect it from the department office."]
+    },
+    {
+      "tag": "course_advisor",
+      "patterns": ["How can I contact my course advisor?", "Advisor list", "advisor", "teacher advisor"],
+      "responses": ["Each batch has a designated faculty advisor. You can find their email addresses and office room numbers on the Department Faculty directory."]
+    },
+    {
+      "tag": "office_hours",
+      "patterns": ["What are the office hours?", "When is the office open?", "office time", "timing"],
+      "responses": ["The department office is open Sunday to Thursday, from 9:00 AM to 5:00 PM."]
+    },
+    {
+      "tag": "computer_lab",
+      "patterns": ["Where is the Computer Lab?", "Programming lab", "lab", "computer lab", "CS lab"],
+      "responses": ["The main Computer Science labs are located on the 2nd floor of the Academic Building."]
+    },
+    {
+      "tag": "payment_method",
+      "patterns": ["How do I pay my semester fees?", "Payment method", "bkash", "payment", "pay fees"],
+      "responses": ["You can pay your fees via the university's online portal using Bkash, Rocket, or designated bank branches."]
+    },
+    {
+      "tag": "grading_system",
+      "patterns": ["How is CGPA calculated?", "Grading system", "pass mark", "grading", "cgpa"],
+      "responses": ["The university follows a standard 4.0 grading scale. You need a minimum of 40% to pass a course."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Are there any scholarships?", "Waiver", "financial aid", "scholarship", "discount"],
+      "responses": ["Scholarships are available based on merit (GPA) and financial need. You can apply for a waiver at the Registrar's office."]
+    },
+    {
+      "tag": "clubs",
+      "patterns": ["What clubs are in the department?", "Programming club", "club", "join club"],
+      "responses": ["We have active clubs like the Computer Club. You can join if you are interested! Please contact the student representatives."]
+    },
+    {
+      "tag": "campus_wifi",
+      "patterns": ["How to connect to campus Wi-Fi?", "wifi", "wi-fi", "internet", "password", "WiFi"],
+      "responses": ["Students can access the campus Wi-Fi using their student ID and the default password provided by the IT support center."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Thanks", "thank you"],
+      "responses": ["Goodbye! Have a great day.", "You're welcome! Feel free to ask anytime."]
+    }
+  ]
+}
